@@ -13,6 +13,9 @@
 		04F8468024D0490A00E97F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8467E24D0490A00E97F31 /* Main.storyboard */; };
 		04F8468224D0490E00E97F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F8468124D0490E00E97F31 /* Assets.xcassets */; };
 		04F8468524D0490E00E97F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8468324D0490E00E97F31 /* LaunchScreen.storyboard */; };
+		04F8468D24D0541300E97F31 /* bestards1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F8468C24D0541300E97F31 /* bestards1.mp4 */; };
+		04F8468F24D0565D00E97F31 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8468E24D0565D00E97F31 /* PlayerViewController.swift */; };
+		04F8469124D0888100E97F31 /* bestards2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F8469024D0888100E97F31 /* bestards2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		04F8468124D0490E00E97F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F8468424D0490E00E97F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F8468624D0490E00E97F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F8468C24D0541300E97F31 /* bestards1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bestards1.mp4; sourceTree = "<group>"; };
+		04F8468E24D0565D00E97F31 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		04F8469024D0888100E97F31 /* bestards2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bestards2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		04F8467724D0490A00E97F31 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				04F8468C24D0541300E97F31 /* bestards1.mp4 */,
+				04F8469024D0888100E97F31 /* bestards2.mp4 */,
 				04F8467824D0490A00E97F31 /* AppDelegate.swift */,
 				04F8467A24D0490A00E97F31 /* SceneDelegate.swift */,
 				04F8467C24D0490A00E97F31 /* ViewController.swift */,
+				04F8468E24D0565D00E97F31 /* PlayerViewController.swift */,
 				04F8467E24D0490A00E97F31 /* Main.storyboard */,
 				04F8468124D0490E00E97F31 /* Assets.xcassets */,
 				04F8468324D0490E00E97F31 /* LaunchScreen.storyboard */,
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F8468524D0490E00E97F31 /* LaunchScreen.storyboard in Resources */,
+				04F8469124D0888100E97F31 /* bestards2.mp4 in Resources */,
+				04F8468D24D0541300E97F31 /* bestards1.mp4 in Resources */,
 				04F8468224D0490E00E97F31 /* Assets.xcassets in Resources */,
 				04F8468024D0490A00E97F31 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F8467D24D0490A00E97F31 /* ViewController.swift in Sources */,
+				04F8468F24D0565D00E97F31 /* PlayerViewController.swift in Sources */,
 				04F8467924D0490A00E97F31 /* AppDelegate.swift in Sources */,
 				04F8467B24D0490A00E97F31 /* SceneDelegate.swift in Sources */,
 			);
